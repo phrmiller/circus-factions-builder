@@ -1,0 +1,30 @@
+name: Circus Factions Builder Belisarius Update on Push
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: "Deploy to Server"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "$BELISARIUS_SSH_KEY" > ~/.ssh/belisarius.key
+          chmod 600 ~/.ssh/belisarius.key
+          ssh-keyscan -p 2310 $BELISARIUS_IP >> ~/.ssh/known_hosts
+          echo "Host belisarius
+            HostName $BELISARIUS_IP
+            User $BELISARIUS_USER
+            Port 2310
+            IdentityFile ~/.ssh/belisarius.key" > ~/.ssh/config
+        env:
+          BELISARIUS_SSH_KEY: ${{ secrets.BELISARIUS_SSH_KEY }}
+          BELISARIUS_IP: ${{ secrets.BELISARIUS_IP }}
+          BELISARIUS_USER: ${{ secrets.BELISARIUS_USER }}
+
+      - name: Fetch and Reset
+        run: ssh belisarius 'cd /home/phillip/GitHub/[repository-name] && git fetch --all && git reset --hard origin/main && git clean -fd'

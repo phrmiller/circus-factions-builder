@@ -1,0 +1,7 @@
+<div class="post_summaries">
+    {% for post in home_page_posts %}
+    <h2><a href="{{ post['url'] }}">{{ post['title'] }}</a></h2>
+    <p>{{ post['date-time'].strftime("%B %d, %Y") }}</p>
+    <p>{{ post['description'] }}</p>
+    {% endfor %}
+</div>

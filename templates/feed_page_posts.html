@@ -1,0 +1,17 @@
+<div class="feed">
+    {% for post in feed_page_posts %}
+        {% if post['type'] == 'long' %}
+            <div class="feed-long-post">
+                <h3><a href="{{ post['url'] }}">{{ post['title'] }}</a></h3>
+                <p>{{ post['description'] }}</p>
+                <p>{{ post['date-time'].strftime("%B %d, %Y at %-I:%M %p") }}</p>
+                <p>Click the title to read more.</p>
+            </div>
+        {% elif post['type'] == 'short' %}
+            <div class="feed-short-post">
+                <p>{{ post['html'] }}</p>
+                <p>{{ post['date-time'].strftime("%B %d, %Y at %-I:%M %p") }}</p>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
