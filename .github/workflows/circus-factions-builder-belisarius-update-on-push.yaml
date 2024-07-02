@@ -27,4 +27,4 @@ jobs:
           BELISARIUS_USER: ${{ secrets.BELISARIUS_USER }}
 
       - name: Fetch and Reset
-        run: ssh belisarius 'cd /home/phillip/GitHub/[repository-name] && git fetch --all && git reset --hard origin/main && git clean -fd'
+        run: ssh belisarius 'cd /home/phillip/GitHub/circus-factions-builder && git fetch --all && git reset --hard origin/main && git clean -fd'
