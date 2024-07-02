@@ -13,10 +13,10 @@ import shutil
 from modules.watchdog import start_watching
 
 # Configurations.
-build_directory = Path('/Users/phillip/GitHub/circus-factions-builder')
-content_directory = Path('/Users/phillip/GitHub/circus-factions-content')
-output_directory = Path('/Users/phillip/GitHub/circus-factions-site/public')
-templates_directory = Path('/Users/phillip/GitHub/circus-factions-builder/templates')
+build_directory = Path('~/GitHub/circus-factions-builder').expanduser() # "expanduser" is necessary for this to work on both Mac and Ubuntu.
+content_directory = Path('~/GitHub/circus-factions-content').expanduser()
+output_directory = Path('~/GitHub/circus-factions-site/public').expanduser()
+templates_directory = Path('~/GitHub/circus-factions-builder/templates').expanduser()
 watchdog = False
 
 # Record start time.
@@ -35,6 +35,8 @@ markdown_data = []
 for file in content_directory.glob('**/*.md'):
     with open(file, 'r', encoding="utf-8") as f:
         content = f.read()
+    if not content.startswith('---'): # This mostly catches the README.md file. Everything else should have YAML metadata.
+        continue
     ### Split each file into YAML and Markdown parts.
     yaml_part, markdown_part = content.split('---', 2)[1:]
     ### Load the YAML into the file_data dictionary.
