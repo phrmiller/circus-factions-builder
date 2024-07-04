@@ -1,5 +1,7 @@
 # Circus Factions Builder
 
+Just making sure the action still works.
+
 All non-content resources (e.g. scripts, CSS, templates) for building Circus Factions.
 
 Run `build.py` to build the website.
