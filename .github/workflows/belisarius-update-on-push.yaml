@@ -1,4 +1,4 @@
-name: Circus Factions Builder Belisarius Update on Push
+name: Belisarius Update on Push
 
 on:
   push:
