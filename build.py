@@ -12,19 +12,17 @@ import os
 import shutil
 from modules.watchdog import start_watching
 
+# Preparations.
+
+# Record the script's start time.
+start_time = time.time()
+
 # Configurations.
 build_directory = Path('~/GitHub/circus-factions-builder').expanduser() # "expanduser" is necessary for this to work on both Mac and Ubuntu.
 content_directory = Path('~/GitHub/circus-factions-content').expanduser()
 output_directory = Path('~/GitHub/circus-factions-site/public').expanduser()
 templates_directory = Path('~/GitHub/circus-factions-builder/templates').expanduser()
 watchdog = False
-
-# Record start time.
-start_time = time.time()
-
-# Remove and recreate the output directory.
-shutil.rmtree(output_directory)
-os.makedirs(output_directory)
 
 # Gather data from Markdown files.
 
@@ -75,6 +73,12 @@ for file in content_directory.glob('**/*.md'):
 # Start Jinja environment.
 jinja_environment = Environment(loader=FileSystemLoader(templates_directory))
 template = jinja_environment.get_template('base.html')
+
+# Before you actually build any output files, remove and recreate the output directory.
+
+# Remove and recreate the output directory.
+shutil.rmtree(output_directory)
+os.makedirs(output_directory)
 
 # Build the home page (currently a summary version of all "long" posts, in reverse chronological order).
 
@@ -135,6 +139,8 @@ for post in short_posts:
     ## Write the post page HTML to the output directory.
     with open(output_path, 'w', encoding="utf-8") as f:
         f.write(output_html)
+
+# Finish up.
 
 # Print the script's run time.
 elapsed_time = time.time() - start_time
