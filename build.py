@@ -140,6 +140,13 @@ for post in short_posts:
     with open(output_path, 'w', encoding="utf-8") as f:
         f.write(output_html)
 
+# Move all images to the output directory.
+images_source_directory = content_directory / 'images'
+images_output_directory = output_directory / 'images'
+os.makedirs(images_output_directory, exist_ok=True)
+for image in images_source_directory.glob('*'):
+    shutil.copy(image, images_output_directory)
+
 # Finish up.
 
 # Print the script's run time.
