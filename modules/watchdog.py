@@ -2,6 +2,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEvent, FileSystemEventHandler
 import subprocess
 import time
+from datetime import datetime
 
 class MyHandler(FileSystemEventHandler):
     def __init__(self, build_directory, content_directory, ignore_patterns=None):
@@ -19,14 +20,16 @@ class MyHandler(FileSystemEventHandler):
     def on_any_event(self, event):
         if self.should_ignore_event(event.src_path) or event.is_directory:
             return
-        print(f'{event.src_path} has been {event.event_type}')
+        file_name = event.src_path.split('/')[-1]
+        print(f'{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} -- {file_name} has been {event.event_type}')
         try:
+            print('Woof woof! Building the site...')
             subprocess.run('cf')
         except subprocess.CalledProcessError as e:
             print(f'Error: {e}')
 
 def start_watching(build_directory, content_directory):
-    ignore_patterns = ['__pycache__', '.git', '.DS_Store', 'no-watchdogs-allowed', '.obsidian']
+    ignore_patterns = ['__pycache__', '.git', '.DS_Store', 'no-watchdogs-allowed', '.obsidian', '.css.map', '.scss']
     event_handler = MyHandler(build_directory, content_directory, ignore_patterns)
     observer = Observer()
     paths = [build_directory, content_directory]

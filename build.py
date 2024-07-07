@@ -22,7 +22,7 @@ build_directory = Path('~/GitHub/circus-factions-builder').expanduser() # "expan
 content_directory = Path('~/GitHub/circus-factions-content').expanduser()
 output_directory = Path('~/GitHub/circus-factions-site/public').expanduser()
 templates_directory = Path('~/GitHub/circus-factions-builder/templates').expanduser()
-watchdog = False
+watchdog = True
 
 # Gather data from Markdown files.
 
@@ -147,11 +147,19 @@ os.makedirs(images_output_directory, exist_ok=True)
 for image in images_source_directory.glob('*'):
     shutil.copy(image, images_output_directory)
 
+## Move all CSS files to the output directory.
+css_source_directory = build_directory / 'css'
+css_output_directory = output_directory / 'css'
+os.makedirs(css_output_directory, exist_ok=True)
+for css_file in css_source_directory.glob('*.css*'):
+    if css_file.suffix in ['.css', '.map']:
+        shutil.copy(css_file, css_output_directory)
+
 # Finish up.
 
 # Print the script's run time.
-elapsed_time = time.time() - start_time
-print(f"Done! Build Time: {elapsed_time}ms")
+elapsed_time = "{:.0f}".format((time.time() - start_time) * 1000)
+print(f"Done! Build Time: {elapsed_time} ms")
 
 # If Watchdog is active, watch for changes and automatically rebuild.
 start_watching(build_directory, content_directory) if watchdog else None
