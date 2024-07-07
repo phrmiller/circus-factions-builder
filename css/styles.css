@@ -19,21 +19,23 @@ a, a:visited, a:hover {
 }
 
 #header {
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 40px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 #navigation-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 #navigation-list {
   display: flex;
   list-style: none;
-  gap: 1rem;
+  gap: 15px;
 }
 
 #masthead-container {
@@ -44,7 +46,7 @@ a, a:visited, a:hover {
 
 #masthead {
   display: flex;
-  width: 300px;
+  width: 265px;
   height: auto;
 }
 

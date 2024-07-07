@@ -34,8 +34,10 @@ a, a:visited, a:hover {
 
 /// The `header` wraps the `navigation-container` and the `masthead-container`.
 #header {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 40px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
     /// The `navigation-container` wraps the navigation list.
@@ -43,14 +45,14 @@ a, a:visited, a:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
         /// The `navigation-list` contains an unordered list of navigation items.
         #navigation-list {
             display: flex;
             list-style: none;
-            gap: 1rem;
+            gap: 15px;
             //text-transform: uppercase;
             //font-weight: 800;
             //font-size: 0.8rem;
@@ -68,7 +70,7 @@ a, a:visited, a:hover {
         /// The `masthead` SVG image.
         #masthead {
             display: flex; // This prevents inexplicable whitespace beneath the SVG. No clue why.
-            width: 300px;
+            width: 265px;
             height: auto;
         }
 
