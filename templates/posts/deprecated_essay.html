@@ -1,0 +1,9 @@
+<div class="essay">
+<h1>DEPRECATED</h1>
+<h1>{{ essay['title'] }}</h1>
+<p>Warning. This is an old version of this essay.</p>
+<p>Please see the latest version <a href="/{{ essay['url'] }}">here</a>.</p>
+<p>All versions can be seen <a href="/{{ essay['url'] }}/versions">here</a>.</p>
+<p>{{ essay['date-time'].strftime("%B %d, %Y") }}</p>
+{{ essay['html'] }}
+</div>

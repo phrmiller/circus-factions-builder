@@ -1,0 +1,8 @@
+<div>
+<h1>{{ essay['title'] }}</h1>
+<h2>Versions</h2>
+<p><a href="/{{ essay['url'] }}">{{ essay['date-time'].strftime("%B %d, %Y") }}</a>. Latest.</p>
+{% for version in deprecated_versions %}
+<p><a href="/{{ version['url'] }}/{{ version['file-name'] }}">{{ version['date-time'].strftime("%B %d, %Y") }}</a>. Deprecated.</p>
+{% endfor %}
+</div>

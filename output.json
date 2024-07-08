@@ -1,0 +1,895 @@
+[
+  {
+    "uuid": "fc072fc5-9ea0-4135-a440-a5a2ae6590c4",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-06-30-16-08-02.md",
+    "date-time": "2024-06-30T16:08:02",
+    "url": "2024-06-30-16-08-02",
+    "html": "<h2>my-long-post-from-drafts</h2>\n<p>this: is some\nstuff: for the yaml&nbsp;metadata</p>\n<hr />\n<p>And now I&#8217;m going to make my big long post! Well, not so long I&nbsp;guess.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "f8f95a7e-761f-4bf5-b7a7-1dce876c6740",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-07-01-23-30-36.md",
+    "date-time": "2024-07-01T23:30:36",
+    "url": "2024-07-01-23-30-36",
+    "html": "<p>Anoterh.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "f8816bfe-67e3-4499-89ad-6bc3eeb45b3b",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-07-01-23-29-42.md",
+    "date-time": "2024-07-01T23:29:42",
+    "url": "2024-07-01-23-29-42",
+    "html": "<p>Please fix&nbsp;it!</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "f5e0bc2a-c2c8-46fc-90a2-e4e4eb8ffc9f",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-07-02-13-00-49.md",
+    "date-time": "2024-07-02T13:00:49",
+    "url": "2024-07-02-13-00-49",
+    "html": "<p>Let&#8217;s see if it all&nbsp;works.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "f2e415b6-a9a9-4064-a3a6-d1d3ba746696",
+    "type": "short",
+    "location": {
+      "latitude": 41.235372294895974,
+      "longitude": -80.732421975805
+    },
+    "file": "2024-06-30-19-22-49.md",
+    "date-time": "2024-06-30T19:22:49",
+    "url": "2024-06-30-19-22-49",
+    "html": "<p>Gimme a good post please!&nbsp;Short!</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "f2c8df32-75bd-444a-8026-feace6ce11c9",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-06-30-16-01-10.md",
+    "date-time": "2024-06-30T16:01:10",
+    "url": "2024-06-30-16-01-10",
+    "html": "<p>This is another test. Short post. Two&nbsp;images.</p>\n<p><img alt=\"a\" src=\"images/car1.jpeg\" />\n<img alt=\"a\" src=\"images/melt.jpeg\" /></p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "ede18aa4-248a-41f8-a101-3ed8e6a33112",
+    "type": "short",
+    "location": {
+      "latitude": 41.235372294895974,
+      "longitude": -80.732421975805
+    },
+    "file": "2024-06-30-19-23-57.md",
+    "date-time": "2024-06-30T19:23:57",
+    "url": "2024-06-30-19-23-57",
+    "html": "<p>Gimme a short one with an&nbsp;image. </p>\n<p><img alt=\"Image\" src=\"images/takashi.jpeg\" /></p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "ecd98050-1906-4a11-b9c0-c3cc30047376",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-06-29-13-24-45.md",
+    "date-time": "2024-06-29T13:24:45",
+    "url": "2024-06-29-13-24-45",
+    "html": "<p>Sending&nbsp;another.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "ec419289-bd0d-40bd-b6b8-9189b97e7f04",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-06-30-19-18-11.md",
+    "date-time": "2024-06-30T19:18:11",
+    "url": "2024-06-30-19-18-11",
+    "html": "<p>Maybe this will&nbsp;help.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "e402fca0-68cf-4ecc-8444-4774ae892a03",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-07-01-23-19-31.md",
+    "date-time": "2024-07-01T23:19:31",
+    "url": "2024-07-01-23-19-31",
+    "html": "<p>Why not&nbsp;working?</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "e2246109-d50e-4e1d-ab3e-77d87f98a281",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-07-01-23-34-47.md",
+    "date-time": "2024-07-01T23:34:47",
+    "url": "2024-07-01-23-34-47",
+    "html": "<p>Give this one a&nbsp;whirl.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "de47dd9e-1ec5-4b48-a54f-a82ef3f68557",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-06-30-16-04-28.md",
+    "date-time": "2024-06-30T16:04:28",
+    "url": "2024-06-30-16-04-28",
+    "html": "<p>Let&#8217;s try a post with no&nbsp;images.</p>\n<p>But a couple lines of&nbsp;content.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "d6272e03-c5ea-4c79-9d0c-fde3c24d33b3",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-06-30-19-13-31.md",
+    "date-time": "2024-06-30T19:13:31",
+    "url": "2024-06-30-19-13-31",
+    "html": "<p>Testing the whole thing now. I&nbsp;think.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "d3d45e6c-73ca-45f4-b28f-c24506881d87",
+    "type": "short",
+    "location": {
+      "latitude": 41.235372294895974,
+      "longitude": -80.732421975805
+    },
+    "file": "2024-06-30-21-08-07.md",
+    "date-time": "2024-06-30T21:08:07",
+    "url": "2024-06-30-21-08-07",
+    "html": "<p>Reminding myself of how easy this&nbsp;is. </p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "d21a2c73-0f73-4a44-9a10-41f8f6a89816",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-06-29-14-57-08.md",
+    "date-time": "2024-06-29T14:57:08",
+    "url": "2024-06-29-14-57-08",
+    "html": "<p>Tried making the script easier to&nbsp;edit.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "ce45ef18-ac35-423b-9ecd-6bdcfdd1b899",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-06-29-13-50-25.md",
+    "date-time": "2024-06-29T13:50:25",
+    "url": "2024-06-29-13-50-25",
+    "html": "<p>This is a post with no <span class=\"caps\">YAML</span> data up&nbsp;top.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "caed47ea-0586-496d-8f62-6bdda345d046",
+    "type": "short",
+    "location": {
+      "latitude": 41.235344066723854,
+      "longitude": -80.73233156741564
+    },
+    "file": "2024-07-05-11-55-14.md",
+    "date-time": "2024-07-05T11:55:14",
+    "url": "2024-07-05-11-55-14",
+    "html": "<p>Maybe I can see the errors this&nbsp;time.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "c3ece090-5f78-4499-98bd-ec11748603d7",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-06-29-15-35-32.md",
+    "date-time": "2024-06-29T15:35:32",
+    "url": "2024-06-29-15-35-32",
+    "html": "<p>Trying out Draft&#8217;s &#8220;credentials&#8221;&nbsp;system.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "c2df9e8a-a481-4e75-8050-5c78c58c4914",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-07-01-23-36-32.md",
+    "date-time": "2024-07-01T23:36:32",
+    "url": "2024-07-01-23-36-32",
+    "html": "<p>Oh my goodness. I think it might be working&nbsp;now.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "bb029a4d-c1c2-4130-8ba1-4ace751802c2",
+    "type": "short",
+    "location": {
+      "latitude": 41.235372294895974,
+      "longitude": -80.732421975805
+    },
+    "file": "2024-06-30-21-14-22.md",
+    "date-time": "2024-06-30T21:14:22",
+    "url": "2024-06-30-21-14-22",
+    "html": "<p>Being able to see something before you post&nbsp;it. </p>\n<p>Wouldn&#8217;t that be&nbsp;nice?</p>\n<p><img alt=\"Text\" src=\"images/melt.jpeg\" /></p>\n<p>And here&#8217;s another one. Two,&nbsp;even!</p>\n<p><img alt=\"Colorful\" src=\"images/ignoto.jpeg\" /></p>\n<p><img alt=\"Whoops\" src=\"images/takashi.jpeg\" /></p>\n<p>That&#8217;s how we do it&nbsp;baby!</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "b8bdace9-bdf1-42b9-b74b-e98002b2822f",
+    "type": "short",
+    "location": {
+      "latitude": 41.23537215327662,
+      "longitude": -80.73242521457799
+    },
+    "file": "2024-07-04-11-21-42.md",
+    "date-time": "2024-07-04T11:21:42",
+    "url": "2024-07-04-11-21-42",
+    "html": "<p>I think this will&nbsp;work!!!</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "ae126dd3-fee6-4c4d-9119-061f35ec7f2f",
+    "type": "short",
+    "location": {
+      "latitude": 41.235372294895974,
+      "longitude": -80.732421975805
+    },
+    "file": "2024-06-29-23-12-33.md",
+    "date-time": "2024-06-29T23:12:33",
+    "url": "2024-06-29-23-12-33",
+    "html": "<p>Testing it all&nbsp;out. </p>\n<p><img alt=\"Triangle. \" src=\"images/Dark_Side_of_the_Moon.png\" /></p>\n<p><img alt=\"This one has a car. \" src=\"images/car1.jpeg\" /></p>\n<p><img alt=\"Dude in a chair. \" src=\"images/ignoto.jpeg\" /></p>\n<p>What about&nbsp;this?</p>\n<p><img alt=\"There’s a weird kid here. \" src=\"images/Houses-of-the-Holy-Album-cover.jpeg\" /></p>\n<p>Let&#8217;s do several&nbsp;now. </p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "a2c60fb7-f1e7-4380-878f-ad2c64d75762",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-06-30-18-29-33.md",
+    "date-time": "2024-06-30T18:29:33",
+    "url": "2024-06-30-18-29-33",
+    "html": "<p>I&#8217;ve got a bad feeling about&nbsp;something.</p>\n<p><img alt=\"a\" src=\"images/Dark_Side_of_the_Moon.png\" /></p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "a1de5e50-5d14-44f6-9449-d74c57e99b36",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-07-01-22-51-19.md",
+    "date-time": "2024-07-01T22:51:19",
+    "url": "2024-07-01-22-51-19",
+    "html": "<p>Let&#8217;s try that car picture again.&nbsp;Curious&#8230;</p>\n<p><img alt=\"car\" src=\"images/car1.jpeg\" /></p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "E1E5BD7E-something-else",
+    "type": "long",
+    "title": "It's Different!",
+    "title-2": "You Have to Start Somewhere",
+    "description": "An initial post that does introduce an idea, but it mostly serves as an excuse for finally writing something.",
+    "file": "2024-06-30-19-30-08-try-a-long-one-on-the-phone.md",
+    "date-time": "2024-06-30T19:30:08",
+    "url": "try-a-long-one-on-the-phone",
+    "html": "<hr />\n<p>Here&#8217;s a long one with two&nbsp;images. </p>\n<p><img alt=\"Peter\" src=\"images/melt.jpeg\" />\n<img alt=\"Gabriel\" src=\"images/car1.jpeg\" /></p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "E1E5BD7E-7920-461F-8F48-3418535D53F3",
+    "type": "long",
+    "title": "The iPad Test",
+    "title-2": "You Have to Start Somewhere",
+    "description": "An initial post that does introduce an idea, but it mostly serves as an excuse for finally writing something.",
+    "file": "2024-07-06-17-14-23-why-not-send-another.md",
+    "date-time": "2024-07-06T17:14:23",
+    "url": "why-not-send-another",
+    "html": "<p>Why not? Why not send one from the&nbsp;iPad?</p>",
+    "versions": 2,
+    "latest": true
+  },
+  {
+    "uuid": "E1E5BD7E-7920-461F-8F48-3418535D53F3",
+    "type": "essay",
+    "title": "Why This Blog Exists",
+    "title-2": "You Have to Start Somewhere",
+    "description": "An initial post that does introduce an idea, but it mostly serves as an excuse for finally writing something.",
+    "file": "2024-06-23-14-56-28-why-this-blog-exists.md",
+    "date-time": "2024-06-23T14:56:28",
+    "url": "why-this-blog-exists",
+    "html": "<p>This is an older version to test my versioning&nbsp;nonsense.</p>",
+    "versions": 2,
+    "latest": false
+  },
+  {
+    "uuid": "E1E5BD7E-7920-461F-8F48-3418525D53F3",
+    "type": "essay",
+    "title": "Why This Blog Exists",
+    "title-2": "You Have to Start Somewhere",
+    "description": "An initial post that does introduce an idea, but it mostly serves as an excuse for finally writing something.",
+    "file": "2024-07-06-20-18-12-why-this-blog-exists.md",
+    "date-time": "2024-07-06T20:18:12",
+    "url": "why-this-blog-exists",
+    "html": "<p>I have natural tendencies toward daydreaming, procrastination, and perfectionism. This means I come up with lots of big plans that I rarely start and never finish. To wit, I couldn&#8217;t tell you how many times I&#8217;ve planned to start a&nbsp;blog.</p>\n<p>So how did this blog finally reach the internet? Well, I suppose it&#8217;s an experiment aimed at mitigating my perfectionism. I&#8217;ll worry about the daydreaming and procrastination some other&nbsp;time.</p>\n<p>At the heart of this experiment is an attempt to change how I think about&nbsp;&#8220;publishing&#8221;.</p>\n<p>To &#8220;publish&#8221; something is, quite literally, the act of releasing it to the public. It is traditionally a singular and definitive event. You&#8217;d better get it right on the first try, because you can&#8217;t change the book once it hits the shelves, or the newspaper once it hits the streets. Digital publications are no different, even when corrections can be swift and ubiquitous. You hold your breath as you press &#8220;send&#8221;, knowing full well that the die is being cast. The internet never forgets. And it might laugh at you. Which makes it hard for someone like me to ever press&nbsp;&#8220;send&#8221;.</p>\n<p>As a metaphor: Publishing might be easier for me if pressing &#8220;send&#8221; felt less like igniting a rocket and more like nudging a fledgling out of the nest. When it&#8217;s time to fly, you only get one shot with a rocket. But a fledgling can try again after receiving further attention. No one cares if it starts out all&nbsp;gangly.</p>\n<p>So how can I make myself feel like it&#8217;s okay for my blog posts to begin as little fledglings? My best answer, at this moment, is what I&#8217;ll call &#8220;transparent versioning&#8221;. If someone bothers to read one of my posts, I want them to be able to easily see how the post has evolved over time. I want the post&#8217;s messy past to feel like an essential part of the post. I know this is not a new idea, and it seems related to a concept I recently encountered called &#8220;digital&nbsp;gardening&#8221;.</p>\n<p>I&#8217;m not yet sure how to accomplish &#8220;transparent versioning&#8221;, or how well this plan fits with my desire for a static blog. Something like Git, or even a Wikipedia history page, is far more complicated than what I have in mind. I might start with simply displaying links that allow you to cycle through a post&#8217;s major&nbsp;revisions.</p>\n<p>In any case, I expect this post to change over&nbsp;time.</p>",
+    "versions": 2,
+    "latest": true
+  },
+  {
+    "uuid": "E1E5BD7E-7920-461F-8F48-3418525D53F3",
+    "type": "long",
+    "title": "Now for an iPhone Test!",
+    "title-2": "You Have to Start Somewhere",
+    "description": "An initial post that does introduce an idea, but it mostly serves as an excuse for finally writing something.",
+    "file": "2024-07-06-17-20-23-it-is-an-iphone-post.md",
+    "date-time": "2024-07-06T17:20:23",
+    "url": "it-is-an-iphone-post",
+    "html": "<p>This one is from the&nbsp;iPhone.</p>\n<p>Trying another change to make sure Obsidian starts up&nbsp;automatically.</p>\n<p>I&#8217;m wondering what happens when the content changes. Does Plausible see it as a new&nbsp;page?</p>",
+    "versions": 2,
+    "latest": false
+  },
+  {
+    "uuid": "90b75c79-255d-4e22-b433-f014b4452bff",
+    "type": "short",
+    "location": {
+      "latitude": 41.235372294895974,
+      "longitude": -80.732421975805
+    },
+    "file": "2024-06-30-16-09-12.md",
+    "date-time": "2024-06-30T16:09:12",
+    "url": "2024-06-30-16-09-12",
+    "html": "<p>Is it&nbsp;working?</p>\n<p><img alt=\"Car.\" src=\"images/car1.jpeg\" /></p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "88af7927-7103-43ce-851f-87d330d609ec",
+    "type": "short",
+    "location": {
+      "latitude": 41.23533247021261,
+      "longitude": -80.73239517829715
+    },
+    "file": "2024-07-03-23-26-57.md",
+    "date-time": "2024-07-03T23:26:57",
+    "url": "2024-07-03-23-26-57",
+    "html": "<p>Third test&#8217;s the&nbsp;charm.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "83048e4d-9217-494a-b0e4-36ad8749de5f",
+    "type": "short",
+    "location": {
+      "latitude": 41.23533247021261,
+      "longitude": -80.73239517829715
+    },
+    "file": "2024-07-03-23-14-56.md",
+    "date-time": "2024-07-03T23:14:56",
+    "url": "2024-07-03-23-14-56",
+    "html": "<p>Testing the rebuild of Belisarius and the creation of a virtual Python&nbsp;environment.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "82d39d3d-4e7a-453b-9f24-d1f19c41f9ee",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-07-01-23-17-06.md",
+    "date-time": "2024-07-01T23:17:06",
+    "url": "2024-07-01-23-17-06",
+    "html": "<p>Small&nbsp;change.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "81a20173-1e8d-4ef3-aa9b-0517c6a2c23a",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-07-01-23-11-38.md",
+    "date-time": "2024-07-01T23:11:38",
+    "url": "2024-07-01-23-11-38",
+    "html": "<p>I wonder if I even need the one&nbsp;bit.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "788b0835-5c10-4e00-9a64-4ff20b998e00",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-06-29-11-36-31.md",
+    "date-time": "2024-06-29T11:36:31",
+    "url": "2024-06-29-11-36-31",
+    "html": "<p>And the next&nbsp;one.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "784355b7-1331-444d-8ab8-ad63897cbe4e",
+    "type": "short",
+    "location": {
+      "latitude": 41.23537215327662,
+      "longitude": -80.73242521457799
+    },
+    "file": "2024-07-04-21-19-22.md",
+    "date-time": "2024-07-04T21:19:22",
+    "url": "2024-07-04-21-19-22",
+    "html": "<p>If everything is working right, this should appear shortly both on the website and in&nbsp;Obsidian!</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "76b7c06f-f0de-41c5-9df2-7d1178ec2fd8",
+    "type": "short",
+    "location": {
+      "latitude": 41.23537226323996,
+      "longitude": -80.73242215788312
+    },
+    "file": "2024-07-04-23-14-56.md",
+    "date-time": "2024-07-04T23:14:56",
+    "url": "2024-07-04-23-14-56",
+    "html": "<p>Trying from&nbsp;iPad. </p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "74698251-cd29-4166-876c-502120a87cca",
+    "type": "short",
+    "location": {
+      "latitude": 41.235321646356816,
+      "longitude": -80.73249518612577
+    },
+    "file": "2024-07-06-19-08-40.md",
+    "date-time": "2024-07-06T19:08:40",
+    "url": "2024-07-06-19-08-40",
+    "html": "<p>It seems likely that everything will work&nbsp;now.</p>\n<p><img alt=\"Jake!\" src=\"images/IMG_1115.gif\" /></p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "7455c775-1901-4a19-9865-4b74f200da92",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-06-29-15-36-48.md",
+    "date-time": "2024-06-29T15:36:48",
+    "url": "2024-06-29-15-36-48",
+    "html": "<p>Next question&#8230; will Draft&#8217;s ask for credentials again? I sure hope&nbsp;not.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "717a0320-182d-4e84-885a-12aa8b25025f",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-06-29-15-23-19.md",
+    "date-time": "2024-06-29T15:23:19",
+    "url": "2024-06-29-15-23-19",
+    "html": "<p>And now we have version&nbsp;control.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "619832b8-939c-4ada-8fc3-3e524adc4bb7",
+    "type": "short",
+    "location": {
+      "latitude": 41.23533247021261,
+      "longitude": -80.73239517829715
+    },
+    "file": "2024-07-03-23-17-20.md",
+    "date-time": "2024-07-03T23:17:20",
+    "url": "2024-07-03-23-17-20",
+    "html": "<p>Testing, again, the rebuild of Belisarius and the creation of a virtual Python&nbsp;environment.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "5ed887be-3b15-4498-ba5d-e2f742f19f16",
+    "type": "short",
+    "location": {
+      "latitude": 41.235344066723854,
+      "longitude": -80.73233156741564
+    },
+    "file": "2024-07-05-12-04-07.md",
+    "date-time": "2024-07-05T12:04:07",
+    "url": "2024-07-05-12-04-07",
+    "html": "<p>It might finally come together this&nbsp;time.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "5d9d45fa-2f6b-4726-9ac0-1d78d2db52f1",
+    "type": "short",
+    "location": {
+      "latitude": 41.235344066723854,
+      "longitude": -80.73233156741564
+    },
+    "file": "2024-07-05-11-49-54.md",
+    "date-time": "2024-07-05T11:49:54",
+    "url": "2024-07-05-11-49-54",
+    "html": "<p>Just checking&nbsp;again.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "5c7100e4-b663-4e40-b8bf-551dc30aced3",
+    "type": "short",
+    "location": {
+      "latitude": 41.235371953627975,
+      "longitude": -80.7324225622111
+    },
+    "file": "2024-07-02-13-02-30.md",
+    "date-time": "2024-07-02T13:02:30",
+    "url": "2024-07-02-13-02-30",
+    "html": "<p>It is kind of amazing and cool if this&nbsp;works. </p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "57d085ef-e6c3-4b37-a205-5dd4a6206f22",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-07-01-22-00-09.md",
+    "date-time": "2024-07-01T22:00:09",
+    "url": "2024-07-01-22-00-09",
+    "html": "<p>Need to make sure I didn&#8217;t break&nbsp;anything.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "53742414-9034-4659-ad7b-90ac775e8a85",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-07-01-23-21-59.md",
+    "date-time": "2024-07-01T23:21:59",
+    "url": "2024-07-01-23-21-59",
+    "html": "<p>Please&nbsp;work!</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "4a7e9516-067e-4c52-8295-d53c67d3de66",
+    "type": "short",
+    "location": {
+      "latitude": 41.235344066723854,
+      "longitude": -80.73233156741564
+    },
+    "file": "2024-07-05-11-32-36.md",
+    "date-time": "2024-07-05T11:32:36",
+    "url": "2024-07-05-11-32-36",
+    "html": "<p>I think I got it this&nbsp;time.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "43747465-b694-4e8d-b33d-906ae7295ddb",
+    "type": "short",
+    "location": {
+      "latitude": 41.23537215327662,
+      "longitude": -80.73242521457799
+    },
+    "file": "2024-07-05-00-29-55.md",
+    "date-time": "2024-07-05T00:29:55",
+    "url": "2024-07-05-00-29-55",
+    "html": "<p>So, will this tweet cause my big essay to&nbsp;disappear?</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "35788955-05de-408a-8e46-9fc01b10d434",
+    "type": "short",
+    "location": {
+      "latitude": 41.235321646356816,
+      "longitude": -80.73249518612577
+    },
+    "file": "2024-07-06-19-03-01.md",
+    "date-time": "2024-07-06T19:03:01",
+    "url": "2024-07-06-19-03-01",
+    "html": "<p>Wait, does this part still&nbsp;work?</p>\n<p>If it does, get ready for&nbsp;Louise!</p>\n<p><img alt=\"It's Louise!\" src=\"images/IMG_1113.webp\" /></p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "32DD74E6-5C45-4251-80A7-E1C66CDDEB01",
+    "type": "home",
+    "title": "Circus Factions",
+    "description": "Circus Factions blog.",
+    "file": "2024-06-23-18-59-05-home.md",
+    "date-time": "2024-06-23T18:59:05",
+    "url": "home",
+    "html": "",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "2785ab2a-5c76-419f-a8ea-a896f2edd8a8",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-07-01-22-28-46.md",
+    "date-time": "2024-07-01T22:28:46",
+    "url": "2024-07-01-22-28-46",
+    "html": "<p>Might as well try&nbsp;it.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "25965d31-9bc9-4bf3-930d-683eb4f3f387",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-07-01-23-27-11.md",
+    "date-time": "2024-07-01T23:27:11",
+    "url": "2024-07-01-23-27-11",
+    "html": "<p>Gimme some error messages&nbsp;please.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "2477b32c-6e13-4cf7-9c91-1ee5adb9f0ec",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-06-30-18-35-10.md",
+    "date-time": "2024-06-30T18:35:10",
+    "url": "2024-06-30-18-35-10",
+    "html": "<h2>time-to-check-again</h2>\n<p>weird: stuff\nthat: can server any&nbsp;purpose</p>\n<hr />\n<p>Just checking to see if this&nbsp;works.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "1db6bc5f-1ab6-4944-b9f8-c22e362036f0",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-07-01-22-49-43.md",
+    "date-time": "2024-07-01T22:49:43",
+    "url": "2024-07-01-22-49-43",
+    "html": "<p>Try one with an image, just to be sure that works&nbsp;too. </p>\n<p><img alt=\"car\" src=\"images/car1.jpeg\" /></p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "1ccce000-aba5-426b-b83f-e5fa809e24dd",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-06-30-19-19-15.md",
+    "date-time": "2024-06-30T19:19:15",
+    "url": "2024-06-30-19-19-15",
+    "html": "<p>Another&nbsp;attempt.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "1982b6b7-e26a-4e68-86b1-2a92ee2d6ea8",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2022-06-29-11-33-58.md",
+    "date-time": "2022-06-29T11:33:58",
+    "url": "2022-06-29-11-33-58",
+    "html": "<p>The next&nbsp;experiment.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "17da3ef5-b9ae-44a6-a31b-48b8f7746715",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-07-01-23-05-24.md",
+    "date-time": "2024-07-01T23:05:24",
+    "url": "2024-07-01-23-05-24",
+    "html": "<p>Let&#8217;s see if we can trigger an action&nbsp;now.</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "1342cb97-8893-47e8-bdc3-6351881d29fc",
+    "type": "short",
+    "location": {
+      "latitude": 41.23517904139081,
+      "longitude": -80.73260927083042
+    },
+    "file": "2024-07-01-22-47-47.md",
+    "date-time": "2024-07-01T22:47:47",
+    "url": "2024-07-01-22-47-47",
+    "html": "<p>Okay buddy, don&#8217;t run the action when I send&nbsp;this!!!</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "uuid": "02BA933C-027B-4905-ACB5-786A89A2AC1F",
+    "type": "feed",
+    "title": "Circus Factions",
+    "description": "Circus Factions blog.",
+    "file": "2024-06-24-10-39-00-feed.md",
+    "date-time": "2024-06-24T10:39:00",
+    "url": "feed",
+    "html": "<h2>Welcome to the&nbsp;Feed</h2>\n<p>See below for posts of every&nbsp;kind!</p>",
+    "versions": 1,
+    "latest": true
+  },
+  {
+    "gets": "old",
+    "file": "2024-06-30-19-34-42-this.md",
+    "date-time": "2024-06-30T19:34:42",
+    "url": "this",
+    "html": "<p>Fast!</p>\n<p><img alt=\"A\" src=\"images/Lord-Huron-Oil-Cover-300x300.jpeg\" /></p>",
+    "versions": 8,
+    "latest": true
+  },
+  {
+    "some": "junk",
+    "file": "2024-06-30-19-34-00-another-long-one.md",
+    "date-time": "2024-06-30T19:34:00",
+    "url": "another-long-one",
+    "html": "<p>Please work! Have some&nbsp;images!</p>\n<p><img alt=\"A\" src=\"images/Houses-of-the-Holy-Album-cover.jpeg\" />\n<img alt=\"A\" src=\"images/ignoto.jpeg\" /></p>",
+    "versions": 8,
+    "latest": false
+  },
+  {
+    "some": "junk",
+    "file": "2024-06-30-19-33-41-another-long-one.md",
+    "date-time": "2024-06-30T19:33:41",
+    "url": "another-long-one",
+    "html": "<p>Please work! Have some&nbsp;images!</p>\n<p><img alt=\"A\" src=\"images/Houses-of-the-Holy-Album-cover.jpeg\" />\n<img alt=\"A\" src=\"images/ignoto.jpeg\" /></p>",
+    "versions": 8,
+    "latest": false
+  },
+  {
+    "this": "is it",
+    "file": "2024-06-30-19-00-41-custom-with-one-image.md",
+    "date-time": "2024-06-30T19:00:41",
+    "url": "custom-with-one-image",
+    "html": "<p>Only one image this time!\n<img alt=\"a\" src=\"images/Dark_Side_of_the_Moon.png\" /></p>",
+    "versions": 8,
+    "latest": false
+  },
+  {
+    "coming": "right",
+    "up": "my friends",
+    "file": "2024-06-30-18-59-03-custom-yaml-with-two-images.md",
+    "date-time": "2024-06-30T18:59:03",
+    "url": "custom-yaml-with-two-images",
+    "html": "<p>What if there&#8217;s only one&nbsp;image?</p>\n<p><img alt=\"a\" src=\"images/Houses-of-the-Holy-Album-cover.jpeg\" /></p>",
+    "versions": 8,
+    "latest": false
+  },
+  {
+    "coming": "right",
+    "up": "my friends",
+    "file": "2024-06-30-18-57-54-custom-yaml-with-two-images.md",
+    "date-time": "2024-06-30T18:57:54",
+    "url": "custom-yaml-with-two-images",
+    "html": "<p>Here are your&nbsp;images.</p>\n<p><img alt=\"a\" src=\"images/melt.jpeg\" />\n<img alt=\"a\" src=\"images/Houses-of-the-Holy-Album-cover.jpeg\" /></p>",
+    "versions": 8,
+    "latest": false
+  },
+  {
+    "where": "the",
+    "yaml": "is",
+    "file": "2024-06-30-18-55-46-gimme-one-like-this.md",
+    "date-time": "2024-06-30T18:55:46",
+    "url": "gimme-one-like-this",
+    "html": "<p>Doing exactly what it&#8217;s supposed to&nbsp;do.</p>",
+    "versions": 8,
+    "latest": false
+  },
+  {
+    "what": "is this",
+    "some": "yaml-metadata",
+    "file": "2024-06-29-13-51-34.md",
+    "date-time": "2024-06-29T13:51:34",
+    "url": "2024-06-29-13-51-34",
+    "html": "<p>Now this is a post where there&#8217;s already some <span class=\"caps\">YAML</span>.</p>",
+    "versions": 8,
+    "latest": false
+  }
+]
