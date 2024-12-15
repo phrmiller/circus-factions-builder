@@ -1,17 +1,3 @@
 # Circus Factions Builder
 
-Just making sure the action still works.
-
-All non-content resources (e.g. scripts, CSS, templates) for building Circus Factions.
-
-Run `build.py` to build the website.
-
-## Steps
-
-For the sake of my terrible memory, here is a detailed description of what happens when you run `build.py`.
-
-### Start Timer
-
-
-
-
+Everything important is in the `build.py` script, and that script has copious comments. Read those comments.
