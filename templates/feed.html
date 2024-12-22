@@ -1,2 +1,19 @@
-{{ feed_markdown_data['html'] }}
-{% include 'feed_page_posts.html' %}
+<div class="feed">
+    {% for post in posts %}
+        {% if post['type'] in ['long','short'] %}
+            <article class="article-summary">
+                <time class="short-article-time">
+                    {{ post['date'].strftime("%b %-d, %Y &ndash; %-I:%M %p") }}
+                </time>
+                {% if post['type'] == 'long' %}
+                    <p>
+                        New post: <a href="{{ post['url'] }}">{{ post['title'] }}</a>
+                    </p>
+                {% else %}
+                    {{ post['html'] }}
+                    <a href="{{ post['url'] }}">page link</a>
+                {% endif %}
+            </article>
+        {% endif %}
+    {% endfor %}
+</div>

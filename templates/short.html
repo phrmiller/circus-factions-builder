@@ -1,0 +1,10 @@
+<article class="short-article">
+    <div class="short-article-metadata">
+        <time class="short-article-time">
+            {{ page['date'].strftime("%b %-d, %Y &ndash; %-I:%M %p") }}
+        </time>
+    </div>
+    <div class="short-article-content">
+        {{ page['html'] }}
+    </div>
+</article>

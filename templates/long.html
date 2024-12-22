@@ -1,0 +1,18 @@
+<article class="long-article">
+    <h2 class="long-article-title">
+        {{ page['title'] }}
+    </h2>
+    <div class="long-article-metadata">
+        <time class="long-article-time">
+            {{ page['date'].strftime("%B %d, %Y") }}
+        </time>
+        {% if page['versions'] > 1 %}
+            <span id="long-article-history">
+                <a href="/{{ page['url'] }}/versions">history</a>
+            </span>
+        {% endif %}
+    </div>
+    <div class="long-article-content">
+        {{ page['html'] }}
+    </div>
+</article>
