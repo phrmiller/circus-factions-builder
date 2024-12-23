@@ -72,7 +72,7 @@ def verify_yaml_data(file, file_data):
             print(f"Error: {file.name}")
             print(f"Details: YAML has no {key}.")
             sys.exit(1)
-    if file_data['image'] and not file_data['image-alt']:
+    if file_data.get('image') and not file_data.get('image-alt'):
         print(f"Error: {file.name}")
         print(f"Details: YAML has an image but no image-alt description.")
         sys.exit(1)
