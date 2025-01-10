@@ -12,3 +12,5 @@ The code is, essentially, a simple static website generator.
 The entry point is `main.py`, which contains reasonably clear comments.
 
 Note to self: All other notes are in Obsidian; start with "Circus Factions / README".
+
+DELETE THIS. Testing Hetzner switch.
