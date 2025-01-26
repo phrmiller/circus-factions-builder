@@ -32,7 +32,7 @@ import yaml
 # Local modules
 from modules.watchdog import start_watching
 
-# Constants. Note that `expanduser` is necessary for Ubuntu.
+# Constants. Note that `expanduser` is necessary for Linux/Docker.
 BUILDER_DIRECTORY = Path('~/GitHub/circus-factions-builder').expanduser()
 CONTENT_DIRECTORY = Path('~/GitHub/circus-factions-content').expanduser()
 SITE_DIRECTORY = Path('~/GitHub/circus-factions-site/public').expanduser()

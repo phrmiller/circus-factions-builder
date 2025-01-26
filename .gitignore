@@ -1,2 +1,12 @@
+# Ignore Mac system files
 .DS_Store
-venv/
+
+# Ignore Python virtual environment
+.venv/
+
+# Keep Node modules and package-lock.json out of Git
+node_modules/
+package-lock.json
+
+# This file is only needed for local development debugging
+content_data.json

@@ -1,0 +1,25 @@
+{
+  "name": "circus-factions-builder",
+  "version": "1.0.0",
+  "description": "This repository contains the code for building Circus Factions (circusfactions.net).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phrmiller/circus-factions-builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/phrmiller/circus-factions-builder/issues"
+  },
+  "homepage": "https://github.com/phrmiller/circus-factions-builder#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.0",
+    "tailwindcss": "^4.0.0"
+  }
+}
