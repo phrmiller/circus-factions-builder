@@ -1,9 +1,0 @@
-# Run `pip install -r requirements.txt` to install these dependencies
-# Activate the virtual environment with `source venv/bin/activate`
-beautifulsoup4==4.12.3
-jinja2==3.1.5
-markdown==3.7
-pillow==11.1.0
-pyYAML==6.0.2
-typogrify==2.1.0
-watchdog==6.0.0
