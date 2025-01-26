@@ -5,7 +5,7 @@
 .venv/
 *.pyc
 *.pyo
-__pycache__/
+modules/__pycache__/
 
 # Node
 node_modules/
