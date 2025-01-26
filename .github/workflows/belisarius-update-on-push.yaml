@@ -33,7 +33,11 @@ jobs:
           # Update the repository
           cd /home/phillip/GitHub/circus-factions-builder
           git fetch --all && git reset --hard origin/main && git clean -fd
-          # Activate and update the virtual environment
+          # Activate and update the Python virtual environment
           source /home/phillip/GitHub/circus-factions-builder/.venv/bin/activate
           pip install -r requirements.txt
+          deactivate
+          # Activate and update the Node environment
+          nvm use
+          npm install
           EOF
