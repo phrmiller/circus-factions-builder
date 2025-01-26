@@ -37,10 +37,9 @@ jobs:
           source /home/phillip/GitHub/circus-factions-builder/.venv/bin/activate
           pip install -r requirements.txt
           deactivate
-          # Activate and update the Node environment; yes, the beginning part is needed
+          # Activate and update the Node environment; explicitly source nvm.sh
           export NVM_DIR="$HOME/.nvm"
-          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+          . "$NVM_DIR/nvm.sh"
           nvm use
           npm install
           EOF
