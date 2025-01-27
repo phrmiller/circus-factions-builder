@@ -33,7 +33,6 @@ jobs:
           # Explicitly set HOME to avoid nvm issues
           export HOME=/home/phillip
           export NVM_DIR="\$HOME/.nvm"
-          ls -l "\$NVM_DIR"
           [ -s "\$NVM_DIR/nvm.sh" ] && \. "\$NVM_DIR/nvm.sh"
           [ -s "\$NVM_DIR/bash_completion" ] && \. "\$NVM_DIR/bash_completion"
           # Update the repository
