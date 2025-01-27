@@ -542,9 +542,6 @@
       max-width: 96rem;
     }
   }
-  .bg-red-300 {
-    background-color: var(--color-red-300);
-  }
   .filter {
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }

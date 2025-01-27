@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-This script builds the Circus Factions website (circusfactions.net).
+This script builds the Circus Factions website (circusfactions.com).
 Add a `-w` flag to watch for changes and rebuild the site automatically.
 The `main()` function describes the steps reasonably well.
 If others are reading this, be warned that I'm not much of a programmer.
@@ -18,6 +18,7 @@ import json
 import os
 from pathlib import Path
 import shutil
+import subprocess
 import sys
 import time
 
@@ -177,6 +178,27 @@ def build_pages(content_data):
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(output_html)
 
+# Functions: Tailwind CSS
+
+def build_tailwind_css():
+    try:
+        tailwind_command = [
+            "npx", "tailwindcss", 
+            "-i", "./css/input.css", 
+            "-o", "./css/styles.css", 
+            "--content", f"{SITE_DIRECTORY}/**/*.html"
+        ]
+        subprocess.run(
+            tailwind_command,
+            cwd=BUILDER_DIRECTORY,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+            check=True
+        )
+    except subprocess.CalledProcessError as e:
+        print(f"Error building Tailwind CSS: {e}")
+        sys.exit(1)
+
 # Functions: Move assets
 
 def move_assets():
@@ -222,6 +244,7 @@ def main():
     update_content_files() # Must precede `gather_content_data()`. It changes content files!
     content_data = gather_content_data() # Any validation or transformation happens here.
     build_pages(content_data) # Annihilates the previous site directory.
+    build_tailwind_css() # Must happen after building pages, in case classes were applied in Markdown files.
     move_assets() # Everything other than HTML pages.
     elapsed_time = "{:.0f}".format((time.time() - start_time) * 1000)
     print(f"Done! Build Time: {elapsed_time} ms")
