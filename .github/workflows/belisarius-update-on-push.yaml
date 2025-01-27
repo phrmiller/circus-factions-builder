@@ -30,6 +30,12 @@ jobs:
         run: |
           ssh belisarius <<EOF
           set -e
+          # Explicitly set HOME to avoid nvm issues
+          export HOME=/home/phillip
+          export NVM_DIR="\$HOME/.nvm"
+          ls -l "\$NVM_DIR"
+          [ -s "\$NVM_DIR/nvm.sh" ] && \. "\$NVM_DIR/nvm.sh"
+          [ -s "\$NVM_DIR/bash_completion" ] && \. "\$NVM_DIR/bash_completion"
           # Update the repository
           cd /home/phillip/GitHub/circus-factions-builder
           git fetch --all && git reset --hard origin/main && git clean -fd
@@ -38,10 +44,6 @@ jobs:
           pip install -r requirements.txt
           deactivate
           # Activate and update the Node environment; explicitly source nvm.sh
-          export HOME=/home/phillip
-          export NVM_DIR="\$HOME/.nvm"
-          ls -l "\$NVM_DIR"
-          [ -s "\$NVM_DIR/nvm.sh" ] && \. "\$NVM_DIR/nvm.sh"
-          [ -s "\$NVM_DIR/bash_completion" ] && \. "\$NVM_DIR/bash_completion"
-          nvm --version
+          nvm use
+          npm install
           EOF
