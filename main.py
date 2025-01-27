@@ -214,7 +214,7 @@ def build_pages(content_data):
 
 def build_tailwind_css():
     try:
-        tailwind_command = [
+        tailwind_cmd = [
             "npx",
             "tailwindcss",
             "-i",
@@ -225,7 +225,7 @@ def build_tailwind_css():
             f"{SITE_DIRECTORY}/**/*.html",
         ]
         subprocess.run(
-            tailwind_command,
+            tailwind_cmd,
             cwd=BUILDER_DIRECTORY,
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL,
@@ -279,7 +279,40 @@ def parse_args():
         action="store_true",
         help="Watch for changes and rebuild the site automatically",
     )
+    parser.add_argument(
+        "--triggered-by-watchdog",
+        action="store_true",
+        help=argparse.SUPPRESS,  # Hide from help output
+    )
     return parser.parse_args()
+
+
+def start_browser_sync():
+    try:
+        cert_path = "/Users/phillip/GitHub/mac-admin/docker/caddy/local-certs"
+        browser_sync_cmd = (
+            "cd ~/GitHub/circus-factions-site && "
+            "browser-sync start "
+            "--proxy 'https://circusfactions.local' "
+            "--files 'public/**/*.html,public/**/*.css,public/**/*.js' "
+            "--no-notify --https"
+        )
+        applescript_cmd = browser_sync_cmd.replace('"', '\\"')
+        if sys.platform == "darwin":  # macOS
+            subprocess.Popen(
+                [
+                    "osascript",
+                    "-e",
+                    'tell application "Terminal" to do script "'
+                    + applescript_cmd
+                    + '"',
+                ],
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+            )
+    except subprocess.CalledProcessError as e:
+        print(f"Error starting BrowserSync: {e}")
+        sys.exit(1)
 
 
 # Main
@@ -312,9 +345,14 @@ def main():
 
     print(f"Done! Total: {"{:.0f}".format((time.time() - start_time) * 1000)} ms")
 
+    if args.watch and not args.triggered_by_watchdog:
+        start_browser_sync()
+
     if args.watch:
         start_watching(
-            BUILDER_DIRECTORY, CONTENT_DIRECTORY, [sys.argv[0]] + sys.argv[1:]
+            BUILDER_DIRECTORY,
+            CONTENT_DIRECTORY,
+            [sys.argv[0]] + sys.argv[1:] + ["--triggered-by-watchdog"],
         )
 
 

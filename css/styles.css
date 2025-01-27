@@ -542,6 +542,9 @@
       max-width: 96rem;
     }
   }
+  .bg-amber-600 {
+    background-color: var(--color-amber-600);
+  }
   .filter {
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
