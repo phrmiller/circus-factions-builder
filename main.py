@@ -289,13 +289,9 @@ def parse_args():
 
 def start_browser_sync():
     try:
-        cert_path = "/Users/phillip/GitHub/mac-admin/docker/caddy/local-certs"
         browser_sync_cmd = (
             "cd ~/GitHub/circus-factions-site && "
-            "browser-sync start "
-            "--proxy 'https://circusfactions.local' "
-            "--files 'public/**/*.html,public/**/*.css,public/**/*.js' "
-            "--no-notify --https"
+            "browser-sync start --config bs-config.js"
         )
         applescript_cmd = browser_sync_cmd.replace('"', '\\"')
         if sys.platform == "darwin":  # macOS
@@ -343,7 +339,7 @@ def main():
     move_time = time.time()
     print(f"Move: {"{:.0f}".format((move_time - tailwind_time) * 1000)} ms")
 
-    print(f"Done! Total: {"{:.0f}".format((time.time() - start_time) * 1000)} ms")
+    print(f"Done! Total: {"{:.0f}".format((time.time() - start_time) * 1000)} ms\n")
 
     if args.watch and not args.triggered_by_watchdog:
         start_browser_sync()
